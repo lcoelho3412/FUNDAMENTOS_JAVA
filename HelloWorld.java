@@ -9,5 +9,12 @@ public class HelloWorld {
   String stringData = "in double quotes only";
   boolean booleData = false;
 
+
+  int initialValue = 0;
+  while (initialValue < 3) {
+    System.out.println("initial value less than 3");
+    System.out.println(initialValue);
+    initialValue ++;
+  }
  }
 }
